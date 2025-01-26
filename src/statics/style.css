@@ -1,0 +1,188 @@
+body{
+background: rgba(0, 18, 39, 1);
+color:#fff;
+font-family: Arial;
+}
+
+h2{
+text-align: center;
+font-family: Calibri;
+color:gray;
+}
+
+
+@media screen and (max-width: 800px){
+#showinfo{
+min-width: 130px;
+max-width: 130px;
+height: 140px;
+
+  }
+
+#icons{
+gap:5px;
+}
+}
+
+@media screen and (min-width: 801px) {
+#showinfo{
+min-width: 190px;
+max-width: 190px;
+height: 100px;
+}
+
+#icons{
+gap:15px;
+}
+}
+
+#add_father{
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+#add0x{
+
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+
+#icons{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+#less{
+height: 47px;
+width: 47px;
+display: none;
+}
+#add {
+display: none;
+border: 1px solid rgba(248, 248, 248, 0.1);
+margin-top: 10px;
+text-align: center;
+width: auto;
+margin: 0 auto;
+border-radius: 4px;
+padding: 20px;
+}
+
+#searchx{
+display: none;
+border-radius: 5px;
+border: 0;
+
+}
+
+#searchx:hover{
+border: 1px solid #fff;
+transition : border .3s;
+}
+
+#search{
+width: 45px;
+height: 45px;
+cursor: pointer;
+}
+
+#add:hover{
+border: 1px dotted rgba(255, 255, 255, 0.53);
+}
+
+#logo{
+width: 50px;
+height: 50px;
+}
+
+#text1, #btn {
+display: block;
+margin: 0 auto 10px;
+height: auto;
+outline: none;
+box-sizing: border-box;
+}
+
+
+#text1{
+background: rgba(232, 232, 232, 1);
+text-align: center;
+width: 100%;
+padding: 10px;
+outline: none;
+height: 30px;
+border-radius: 4px;
+border: none;
+font-size: 17px;
+
+}
+
+#text2{
+font-family: Arial;
+background: rgba(232, 232, 232, 1);
+padding:10px;
+outline: none;
+margin-bottom: 10px;
+min-height: 90px;
+border-radius: 4px;
+border: none;
+width: 90%;
+font-size:17px;
+}
+
+
+#text2:hover, #text1:hover{
+background: rgba(232, 232, 232, 0.94);
+
+}
+button{
+font-family: Arial;
+width: auto;
+font-size: 17px;
+cursor: pointer;
+border-radius: 4px;
+border: none;
+padding: 10px;
+cursor: pointer;
+background: rgba(248, 248, 248, 0.14);
+color:#fff;
+}
+
+#show{
+margin-top: 40px;
+display: flex;
+flex-wrap: wrap;
+gap:15px;
+margin-left:7px;
+}
+
+#showinfo{
+white-space: pre-wrap;
+word-wrap: break-word;
+cursor: pointer;
+background: rgba(0, 0, 0, 0.19);
+color: #fff;
+padding: 10px;
+border-radius: 5px;
+font-family: Calibri;
+border: 1px solid rgba(155, 155, 155, 0.19);
+overflow: auto;
+}
+
+#showinfo:hover{
+border: 1px solid #fff;
+}
+
+#new{
+text-align: right;
+}
+
+#searchx{
+outline: none;
+height: 20px;
+padding: 10px;
+font-size: 15px;
+font-family: Arial;
+}
